@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+time
+plotly==5.24.1
+collections
+scipy
+
