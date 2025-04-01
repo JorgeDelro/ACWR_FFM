@@ -33,12 +33,8 @@ st.set_page_config(
 
 def display_header():
     """Muestra el encabezado de la aplicación"""
-    col1, col2 = st.columns([1, 4])
-    with col1:
-        st.title("Training Periodization Simulator")
-    with col2:
-        st.markdown("Análisis y seguimiento de entrenamiento deportivo")
-    
+    st.title("Training Periodization Simulator")
+    st.markdown("Análisis y seguimiento de entrenamiento deportivo")
     st.divider()
 
 def sidebar_navigation():
